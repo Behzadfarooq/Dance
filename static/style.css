@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Black+Ops+One&family=Cinzel:wght@400;500&family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-image: url(../bg.jpg);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar {
+    font-family: 'Autour One', cursive;
+    text-align: center;
+    justify-content: center;
+    color: aquamarine;
+    background-color: rgb(29, 5, 75);
+    padding: 13px 14px;
+}
+
+#navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 13px 14px;
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+    padding: 13px 14px;
+}
+
+#introSection {
+    font-family: 'Autour One', cursive;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: center/ cover no-repeat url("/static/bg1.jpg");
+    height: 425px;
+    background-color: rgba(211, 24, 24, 0.801);
+}
+
+#introSection div.small {
+    font-size: 27px;
+    padding: 6px;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+#missionSection h2 {
+    font-family: 'Autour One', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponserSection {
+    height: 300px;
+    background-color: yellow;
+}
+
+#sponserSection h2 {
+    font-family: 'Autour One', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#footer {
+    height: 100px;
+    color: aliceblue;
+    background-color: black;
+}
