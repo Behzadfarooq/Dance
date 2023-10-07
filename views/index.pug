@@ -1,24 +1,33 @@
 doctype html
 html
-  head
-    style
-      include ../static/style.css
-  body
-    nav#navbar
-        ul
-            li #[a( href = "/") Home]
-            li #[a( href = "/") About]
-            li #[a( href = "/") Contact us]
-            li #[a( href = "/") Services]
-            li #[a( href = "/") Other info]
-    section#introSection
-        div Welcome to the academy
-        div.small Eat Sleep Dance Repeat
-    section#missionSection
-        h2 Our mission 
-    section#sponserSection
-        h2 Our Sponsers 
-    footer#footer
-        | footer stuff
-    script
-      include ../static/script.js
+    head
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/img/logo.png")
+                    | DA
+                li #[a( href = "/") Home]
+                li #[a( href = "/") About]
+                li #[a( href = "/") Contact us]
+                li #[a( href = "/") Services]
+                li #[a( href = "/") Other info]
+        section#introSection
+            div Welcome to the academy
+            div.small Eat Sleep Dance Repeat
+        section#missionSection
+            h2 Our mission 
+            div.card
+                h3 Dance Perfection
+            div.card
+                h3 Dance the way you like
+            div.card
+                h3 Expert Advice
+        section#sponserSection
+            h2 Our Sponsers 
+        footer#footer
+            | footer stuff
+        script
+            include ../static/script.js
