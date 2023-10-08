@@ -81,14 +81,33 @@
     border-radius: 10px;  
     width: 30%;
     margin: 20px 20px;
-    height: 209px;
+    height: 209px
 }
 .card h3{
      text-align: center;
-     font-family: 'Autour One', cursive;
-     
+     font-family: 'Autour One', cursive;  
      margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.card-img{
+    height: 131px;
+    padding:0 14px;
+    margin: 5px 9px;
 
+}
+.card-img img  {
+    height: inherit;
+}
+.card-content p{
+    
+}
+.card-content {
+    
 }
 #missionSection h2 {
     font-family: 'Autour One', cursive;
